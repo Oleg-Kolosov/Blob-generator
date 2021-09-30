@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>Blob generator</title>
+</head>
+<body>
+    <div class="blob-generator">
+        <div class="output">
+            <div id="blob" class="blob"></div>
+        </div>
+        <div class="controls">
+            <label class="control-label">Height:
+                <input type="number" class='input' value="200" maxValue="300" minValue="100">
+            </label>
+            <label class="control-label">Width:
+                <input type="number" class='input' value="200">
+            </label>
+            <input type="range" class='range' value="70">
+            <input type="range" class='range' value="30">
+            <input type="range" class='range' value="50">
+            <input type="range" class='range' value="90">
+            <input id="output-code" type="text" class='input' readonly="readonly">
+            <button type="button" class="btn" id="copy-btn">Copy</button>
+        </div>
+    </div>
+</body>
+</html>
